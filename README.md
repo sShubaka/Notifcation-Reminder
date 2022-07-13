@@ -1,0 +1,2 @@
+# Notifcation-Reminder
+This is basically a notification reminder that I made for fun. You input your desired time and date when you want to be reminded, and enter your message/specific links(meetings). Then you will receive a notification of that reminder. A separate "Logger" file will be created that will record all your reminders. In the code, just edit the location you want the file to be created and you can change the audio to your personal preference that connects to an audio file on your device.
