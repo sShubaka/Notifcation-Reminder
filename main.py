@@ -7,10 +7,10 @@ import subprocess
 
 #print("Hello! This your new note taker, reminder, or whatever you want to call it! =)\nWhen asked to put an input, it won't matter if you put it in captial leltters or not, but please don't spell it wrong.")
 def fileExistence():
-    if os.path.exists("/Users/shubsharma/Desktop/Logger.txt"):
+    if os.path.exists("/Users/shubsharma/Desktop/Logger.txt"): #ENTER YOUR DESIRED FILE LOCATION.
         pass
     else:
-        file = open("/Users/shubsharma/Desktop/Logger.txt", "w")
+        file = open("/Users/shubsharma/Desktop/Logger.txt", "w") #ENTER YOUR DESIRED FILE LOCATION.
         file.close()
 fileExistence()
 
@@ -31,7 +31,7 @@ def addNotes():
                 time.sleep(1)
             if (Actual_DT == inputDT):
                 print("You should see your notification now. =)")
-                subprocess.call(["afplay", "/Users/shubsharma/Desktop/Bruh.wav"])
+                subprocess.call(["afplay", "/Users/shubsharma/Desktop/Ringer.wav"]) #ENTER YOUR DESIRED FILE LOCATION.
         if notOpenweb.upper() == "NO":
            main2()
            pync.notify('', title=notTitle, subtitle=notSubitle)
